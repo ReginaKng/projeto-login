@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(imagem/salão\ de\ beleza\ \(2\)-640x480.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-login{
+    width: 400 px;
+    background: rgba(0, 27, 5, 0.4);
+    border: 2 px solid rgba(192, 188, 188, 0.2);
+    color: white;
+    border-radius: 20 px;
+    padding: 30 px 40 px;
+}
+.main-login h2{
+    font-size: 36 px;
+    text-align: center;
+}
+.input-grupo{
+    height: 50 px;
+    position: relative;
+    margin: 30 px 0;
+}
+.input-grupo input:: ::placeholder{
+    color: white;   
+}
+.input-grupo input{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 2 px solid rgba(15, 15, 15, 0.2);
+    border-radius: 40 px;
+}
+.lembrar a :hover{
+text-decoration: underline;
+}
+.main-login .lembrar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5 px;
+    margin: 15 px 0 15 px;
+}
